@@ -237,7 +237,7 @@ img {
 
 
 #header {
-  height: 96px;
+  height: 70px;
   width: 100vw;
   padding: 0 18px 0 18px;
 
@@ -247,7 +247,7 @@ img {
   flex-wrap: nowrap;
 
   /* border-bottom: 1px solid #373737; */
-  background-color: #00000056;
+  background-color: #99999989;
   transition: background-color ease 0.3s;
 
   position: absolute;
@@ -255,13 +255,21 @@ img {
 }
 
 #header:hover {
-  background-color: #141414;
+  background-color: #999;
   animation: header 0.2s linear;
 }
 
 #header-left {
   display: flex;
   align-items: center;
+}
+#header-center {
+  font-weight: 800;
+  color: #3f1cec;
+}
+#header-center-llc {
+  font-weight: 800;
+  color: #111519;
 }
 
 #header-right {

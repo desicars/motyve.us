@@ -14,14 +14,17 @@
         <div id="header">
             <div id="header-left">
                 <div id="header-logo" onclick="window.location.href='/'">
-                    <img id="header-logo" src="/static/images/logo.png" alt="Motyve logo">
+                    <img id="header-logo" src="/static/images/logo.png" alt="Motyve logo" height="64px">
                 </div>
                 <div id="header-tabs">
                     <a href="/policy" class="header-tab">Privacy &amp; Policy</a>
                 </div>
             </div>
+            <div id="header-center">
+                Motyve <span id="header-center-llc">LLC</span>
+            </div>
             <div id="header-right">
-
+                <img id="header-phone-icon" src="/static/icons/phone.svg">
                 <!-- <a href=""><img id="header-favorite" src="{{ url_for('static', path='/icons/heart.svg') }}" alt="favorites"></a> -->
                 <span id="header-phone">+1 619 919 40 24</span>
             </div>
@@ -32,7 +35,7 @@
 
         {% block footer %}
         <div id="footer">
-            <img id="footer-logo" onclick="window.location.href='/'" src="/static/images/logo.png" alt="Motyve logo">
+            <img id="footer-logo" onclick="window.location.href='/'" src="/static/images/logo.png" alt="Motyve logo" height="100px">
             <div id="footer-section">
                 <div id="footer-section-title">Sections</div>
                 <div id="footer-section-values">

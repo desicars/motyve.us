@@ -1,0 +1,36 @@
+#content {
+  padding: 60px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#notice {
+  background-color: #252424;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+#button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button-container button {
+  background-color: #3f1cec;
+  border-color: #3f1cec;
+}

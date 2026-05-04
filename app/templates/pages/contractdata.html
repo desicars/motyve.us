@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/css/contractdata.css">
+{% endblock %}
+
+{% block content %}
+<div id="content">
+    <h2>Enter your rental information</h2>
+    <input type="text" placeholder="Full name">
+    <input type="text" placeholder="Address">
+    <input type="text" placeholder="Driver license number">
+    <input type="text" placeholder="State">
+    <input type="tel" placeholder="Phone">
+    <div class="checkbox-container">
+        <input type="checkbox" id="reminders">
+        <label for="reminders">Text me reminders</label>
+    </div>
+    <div id="notice">
+        By entering my mobile number, I agree to receive rental reminder texts from DESICARS. Message frequency varies by rental activity. Message + data rates may apply. Reply STOP to unsubscribe or HELP for help. <a href="/policy">View SMS Terms & Privacy Policy</a>.
+    </div>
+    <div class="checkbox-container">
+        <input type="checkbox" id="policy">
+        <label for="policy">I agree to receive SMS notifications from DESI CARS regarding payment reminders, scheduled maintenance, and other important rental-related updates</label>
+    </div>
+    <div id="button-container">
+        <button onclick="alert('Booking confirmed. Thank you!')">Book</button>
+    </div>
+</div>
+{% endblock %}

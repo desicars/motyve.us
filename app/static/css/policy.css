@@ -7,3 +7,15 @@
   font-size: 13px;
   color: #777;
 }
+
+
+#button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button-container button {
+  background-color: #3f1cec;
+  border-color: #3f1cec;
+}
